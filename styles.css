@@ -136,7 +136,6 @@ a[href*="about"] {
     font-style: italic;
 }
 
-/* Adjustments for image issues */
 article img {
     max-width: 400px;
     display: block;
@@ -147,6 +146,18 @@ article img {
     max-width: 200px;
     display: block;
     margin: 20px auto;
+}
+#about-author {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
 }
 
 
