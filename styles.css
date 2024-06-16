@@ -73,8 +73,7 @@ aside {
 
 /* Floated Image with Caption */
 figure {
-    float: left;
-    margin-right: 20px;
+    margin: 0;
 }
 
 figcaption {
@@ -134,4 +133,18 @@ footer {
 a[href*="about"] {
     font-style: italic;
 }
+
+/* Adjustments for image issues */
+article img {
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+#about-author img {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
 
