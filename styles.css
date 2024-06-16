@@ -11,7 +11,9 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -58,6 +60,7 @@ nav ul li a {
 main {
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 article {
@@ -113,8 +116,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
     width: 100%;
 }
 
@@ -146,5 +148,6 @@ article img {
     display: block;
     margin: 20px auto;
 }
+
 
 
