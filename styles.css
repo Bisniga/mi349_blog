@@ -153,11 +153,25 @@ article img {
     margin: 20px auto;
 }
 
+figure.right {
+    float: right;
+    max-width: 200px;
+    margin: 20px;
+}
+
+figure.right img {
+    max-width: 100%;
+}
+
 figcaption {
     text-align: center;
     font-size: 0.9em;
     color: #555;
     margin-top: 10px;
+}
+
+.content {
+    overflow: hidden;
 }
 
 
