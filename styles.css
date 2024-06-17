@@ -159,6 +159,7 @@ figcaption {
 
 .content {
     margin-top: 20px;
+    margin-left: 220px; /* Add margin to the left of the content */
 }
 
 /* Adjustments for image issues */
@@ -167,6 +168,7 @@ article img {
     display: block;
     margin: 20px auto;
 }
+
 
 
 
