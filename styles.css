@@ -59,7 +59,6 @@ nav ul li a {
 /* Main Content */
 main {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     flex: 1;
 }
@@ -90,10 +89,6 @@ figcaption {
     font-size: 0.9em;
     color: #555;
     margin-top: 10px;
-}
-
-.content {
-    margin-top: 20px;
 }
 
 /* Multi-Column Form Layout */
@@ -148,12 +143,31 @@ a[href*="about"] {
     font-style: italic;
 }
 
+/* Adjustments for the about page image */
+#about-author {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
 /* Adjustments for image issues */
 article img {
     max-width: 400px;
     display: block;
     margin: 20px auto;
 }
+
 
 
 
