@@ -76,12 +76,19 @@ aside {
 
 /* Floated Image with Caption */
 figure {
-    margin: 0;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
 }
 
 figcaption {
     font-size: 0.9em;
     color: #555;
+    margin-top: 10px;
 }
 
 /* Multi-Column Form Layout */
@@ -136,43 +143,34 @@ a[href*="about"] {
     font-style: italic;
 }
 
-article img {
-    max-width: 400px;
-    display: block;
+/* Adjustments for the about page image */
+figure {
+    max-width: 200px;
     margin: 20px auto;
+    text-align: center;
 }
 
-#about-author img {
-    max-width: 200px;
-    display: block;
-    margin: 20px auto;
-}
-#about-author {
-    max-width: 200px;
-    display: block;
-    margin: 20px auto;
-}
-
-figure.right {
-    float: right;
-    max-width: 200px;
-    margin: 20px;
-}
-
-figure.right img {
+figure img {
     max-width: 100%;
 }
 
 figcaption {
-    text-align: center;
     font-size: 0.9em;
     color: #555;
     margin-top: 10px;
 }
 
 .content {
-    overflow: hidden;
+    margin-top: 20px;
 }
+
+/* Adjustments for image issues */
+article img {
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
 
 
 
